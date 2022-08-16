@@ -16,26 +16,27 @@ a {
 
 .sign-in-container button {
 	border-radius: 20px;
-	border: 1px solid #a531ba;
-	background-color: #52b788;
-	color: #FFFFFF;
+	border: 2.5px solid #fff;
+	background-color: #fff;
+	color: #000;
 	font-size: 12px;
 	font-weight: bold;
-	padding: 8px 15px;
+	padding: 8px 65px;
 	letter-spacing: 1px;
 	text-transform: uppercase;
 	transition: transform 80ms ease-in;
+	-webkit-box-shadow: 5px 5px 15px 0px rgba(0,0,0,0.41); 
+    box-shadow: 5px 5px 15px 0px rgba(0,0,0,0.41);
 }
 
 .sign-in-container button:hover{
     transition: 0.75s;
-    -webkit-box-shadow: 5px 5px 15px 0px rgba(0,0,0,0.41); 
-    box-shadow: 5px 5px 15px 0px rgba(0,0,0,0.41);
+    
     transform: translateY(-0.1rem);
 }
 
 .sign-in-container form {
-	background-color: #a531ba;
+	background-color: #52B788;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -109,11 +110,12 @@ a {
 
 
 .social-container {
-	margin: 20px 0;
+	margin: 15px 0;
+
 }
 
 .social-container a {
-	border: 1px solid #BA68C8;
+	background-color: #fff;
 	border-radius: 50%;
 	display: inline-flex;
 	justify-content: center;
@@ -121,10 +123,10 @@ a {
 	margin: 0 5px;
 	height: 40px;
 	width: 40px;
+	-webkit-box-shadow: 5px 5px 15px 0px rgba(0,0,0,0.41); 
+    box-shadow: 5px 5px 15px 0px rgba(0,0,0,0.41);
 }
 .social-container a:hover{
-    transition: 0.75s;
-    -webkit-box-shadow: 5px 5px 15px 0px rgba(0,0,0,0.41); 
-    box-shadow: 5px 5px 15px 0px rgba(0,0,0,0.41);
-    transform: translateY(-0.5px);
+	transition: 1s;
+	transform: translateY(-0.1rem);
 }
